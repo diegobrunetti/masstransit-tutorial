@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Persistence\MassTransitTutorial.Persistence.csproj" />
+    <ProjectReference Include="..\Domain\MassTransitTutorial.Domain.csproj" />
+    <ProjectReference Include="..\Infrastructure\Mappings\MassTransitTutorial.Mappings.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>

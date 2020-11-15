@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.9">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Persistence\MassTransitTutorial.Persistence.csproj" />
+    <ProjectReference Include="..\Infrastructure\Mappings\MassTransitTutorial.Mappings.csproj" />
+    <ProjectReference Include="..\Domain\MassTransitTutorial.Domain.csproj" />
+    <ProjectReference Include="..\Application\MassTransitTutorial.Application.csproj" />
+  </ItemGroup>
+
+
+</Project>
+
