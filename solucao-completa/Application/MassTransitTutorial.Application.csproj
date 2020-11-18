@@ -6,6 +6,10 @@
     <ProjectReference Include="..\Infrastructure\Mappings\MassTransitTutorial.Mappings.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="7.0.6" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
