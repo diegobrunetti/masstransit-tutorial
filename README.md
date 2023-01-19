@@ -1,6 +1,6 @@
 # MassTransit Tutorial
 
-Este repositório faz parte do material de auxílio do curso completo [Comunicação assíncrona com .NET Core, MassTransit e RabbitMQ](https://www.youtube.com/channel/UCNnrp4OQMv6tXl0wJ-oXNMA/featured), disponível gratuitamente no YouTube.
+Este repositório faz parte do material de auxílio da trilha [Comunicação assíncrona com .NET Core, MassTransit e RabbitMQ](https://www.youtube.com/channel/UCNnrp4OQMv6tXl0wJ-oXNMA/featured), disponível gratuitamente no YouTube.
 
 Este repositório se organiza da seguinte forma:
 
